@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  
+    background-color: teal;
+}
+
+header {
+    max-width: 100%;;
+    height: 50px;
+    background-color: gray;
+}
+
+.container {
+    width: 500px;
+    height: 350px;
+    background-color: ivory;
+    border-radius: 10px;
+    padding: 10px;
+    align-content: center;
+    margin-top: 70px;
+    margin-left: 500px;
+}
+
+#answer-container {
+    margin-top: 20px;
+
+}
+
+#question {
+    height: 200px;
+    width: 450px;
+    font-size: 40px;
+    margin: 10px;
+
+}
+
+.choice {
+    padding: 15px;
+    width: 100px;
+    margin-left: 13.5px;
+    margin-top: 35px;
+    border-radius: 10px;
+    outline: 0;
+    background-color: cyan;
+
+}
+
+.menuButtons {
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.hsBtn {
+    padding: 5px;
+    background-color: lightgray;
+    outline: 0;
+}
+
+.takeQuizBtn {
+    padding: 5px;
+    background-color: lightgray;
+    outline: 0;
+}
+
+.timer {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 700px;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+
+
+.correct {
+    padding: 15px;
+    width: 100px;
+    margin-left: 13.5px;
+    margin-top: 35px;
+    border-radius: 10px;
+    outline: 0;
+    
+    background-color: green;
+}
+
+.wrong {
+    padding: 15px;
+    width: 100px;
+    margin-left: 13.5px;
+    margin-top: 35px;
+    border-radius: 10px;
+    outline: 0;
+    
+    background-color: red;
+}
+
+.hide {
+    display: none;
+}
+
+.playButton {
+    width: 250px;
+    height: 115px;
+    background-color: royalblue;
+    color: ivory;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 115px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+
+.submitScoreInput {
+    width: 500px;
+    height: 350px;
+    background-color: ivory;
+    border-radius: 10px;
+    padding: 10px;
+    align-content: center;
+    margin-top: 135px;
+    margin-left: 500px;
+}
+
+.postQuizMessage {
+    text-align: center;
+    font-size: 35px;
+
+}
+
+.askForInitials {
+    text-align: center;
+    font-size: 35px;
+
+}
+
+form {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.highScoreTable {
+    width: 500px;
+    height: 500px;
+    background-color: ivory;
+    border-radius: 10px;
+    padding: 10px;
+    align-content: center;
+    margin-top: 135px;
+    margin-left: 500px;
+}
+
+.hsTableHeader {
+    text-align: center;
+    font-size: 45px;
+
+}
+
+.high-score {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5px;
+
+}
+
+.listOfScores {
+    list-style: none;
+}
+

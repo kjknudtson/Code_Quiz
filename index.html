@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Assets/quizstyle.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Menu -->
+    <header>
+        <div class="menuButtons">
+            <button class="hsBtn">
+                High Scores
+            </button>
+            <button class="takeQuizBtn hide">
+                Take Quiz
+            </button>
+        </div>
+    </header>
+
+    <!-- Timer Box -->
+    <div class="timer">
+        
+    </div>
+    
+    <!-- Container holding start button, questions, and answers -->
+    <div class="container">
+
+        <!-- Question Space -->
+        <div id = "question" class = "hide">
+            
+        </div>
+
+        <!-- Start Button -->
+        <div class="start">
+            <button class="playButton">Click to Begin!</button>
+        </div>
+
+        <!-- Area showing Answer Buttons -->
+        <div id = "answer-container" class = "hide">
+            
+        </div>
+    </div>
+
+    <!-- Submit Score Window -->
+    <div class="submitScoreInput hide">
+        <h1 class = "postQuizMessage"></h1>
+        <h2 class = "askForInitials"></h2>
+        <form>
+            <input type="text" name="initials" max-length = 3 placeholder="initials" id="initials" />
+            
+            <button id="submit">Submit</button>
+            
+        </form>
+    </div>
+
+    <!-- High Scores Table -->
+    <div class="highScoreTable hide">
+        <h1 class = "hsTableHeader">High Scores</h1>
+        <div class="listOfScores">
+
+        </div>
+
+    </div>
+    
+    <script src="Assets/quizscript.js"></script>
+</body>
+</html>
